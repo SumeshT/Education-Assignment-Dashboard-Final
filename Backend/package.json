@@ -1,0 +1,25 @@
+{
+  "name": "education-assignment-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sohan Lal Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.14",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "path": "^0.12.7",
+    "xlsx-to-json": "^0.3.0"
+  }
+}
